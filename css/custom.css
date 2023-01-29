@@ -1,0 +1,106 @@
+/* your styles go here */
+/* Example site test */
+
+.box-image-text .image {
+    min-height: 190px;
+    max-height: 190px;
+}
+
+.box-image-text .image img {
+    max-height: 190px;
+    margin: auto;
+}
+
+.box-simple {
+    min-height: 230px;
+}
+
+.main-Logo {
+    background-image: url("img/old/together.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text {
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    position: relative;
+}
+
+.text-titles{
+    height: 70px; 
+    background-color: #4D6685; 
+    color: #FFFFFF; 
+    padding-top: 5px;
+    font-size:38px; 
+    font-family:oswald-medium,oswald,sans-serif; 
+    font-style:normal; 
+    font-weight:bold; 
+    letter-spacing:0.2em;
+}
+
+.text-paragraph-blue{
+    background-color: #1D67CD;
+    margin-left: 17%;
+    margin-right: 17%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+}
+
+.text-paragraph-gray{
+    background-color: #787878;
+    margin-left: 17%;
+    margin-right: 17%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+}
+
+.single-container{
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.centered{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.two-col-container{
+    display: flex;
+}
+
+.col-left {
+    float: left;
+    width: 50%;
+}
+
+.col-right {
+    float: left;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .col-left, .col-right {
+    width: 100%;
+  }
+}
+
+.txt-bkground-blue{
+    background-image: url('img/old/together.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
